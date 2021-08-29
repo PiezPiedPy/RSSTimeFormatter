@@ -256,6 +256,10 @@ namespace RSSTimeFormatter
             return date;
         }
 
+        public string PrintDateDeltaCompact(double time, bool includeTime, bool includeSeconds, bool useAbs, int places ) {
+            return PrintDateDeltaCompact(time, includeTime, includeSeconds, useAbs);
+        }
+
         public string PrintDateDeltaCompact(double time, bool includeTime, bool includeSeconds, bool useAbs)
         {
             string badStr = IsBadNum(time);

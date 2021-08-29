@@ -130,6 +130,11 @@ namespace RSSTimeFormatter
                 , span.Seconds > 0 && includeTime && includeSeconds ? string.Format("{0} {1}", span.Seconds, span.Seconds == 1 ? "second" : "seconds") : ""
             );
         }
+        
+        public string PrintDateDeltaCompact(double time, bool includeTime, bool includeSeconds, bool useAbs, int places ) {
+            return PrintDateDeltaCompact(time, includeTime, includeSeconds, useAbs);
+        }
+
         public string PrintDateDeltaCompact(double time, bool includeTime, bool includeSeconds, bool useAbs)
         {
             if (IsInvalidTime(time))

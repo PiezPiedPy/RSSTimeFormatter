@@ -1,0 +1,9 @@
+{
+"NAME": "RSSDateTime", "URL": "http://ksp-avc.cybutek.net/version.php?id=294",
+"DOWNLOAD": "",
+"CHANGE_LOG_URL": "https://raw.githubusercontent.com/KSP-RO/RSSTimeFormatter/master/RELEASE_NOTES_RAW.txt",
+"VERSION": {"MAJOR": 1, "MINOR": 10, "PATCH": 2, "BUILD": 0},
+"KSP_VERSION": {"MAJOR": 1, "MINOR": 10, "PATCH": 2}
+"KSP_VERSION_MIN":{"MAJOR":1,"MINOR":8,"PATCH":0},
+"KSP_VERSION_MAX":{"MAJOR":1,"MINOR":12,"PATCH":99}
+}

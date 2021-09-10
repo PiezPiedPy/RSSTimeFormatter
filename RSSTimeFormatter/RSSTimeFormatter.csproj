@@ -38,6 +38,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
+      <Private>False</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
